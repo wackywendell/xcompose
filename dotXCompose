@@ -608,13 +608,17 @@ include "%L"
 <Multi_key> <percent> <D>		: "Ⅾ"	U216E		# ROMAN NUMERAL FIVE HUNDRED
 <Multi_key> <percent> <M>		: "Ⅿ"	U216F		# ROMAN NUMERAL ONE THOUSAND
 
-# Custom additions: for chat (kragen)
+# Custom additions: for chat (kragen, wendell)
+# http://unicode-table.com/en/blocks/emoticons/
 <Multi_key> <parenleft> <colon>         : "☻"   U263B           # BLACK SMILING FACE
 <Multi_key> <colon> <parenright>        : "☺"   U263A           # WHITE SMILING FACE
 <Multi_key> <colon> <parenleft>         : "☹"   U2639           # WHITE FROWNING FACE
-<Multi_key> <colon> <asciitilde>	: "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
-<Multi_key> <colon> <bar>		: "⸚"   U2E1A		# HYPHEN WITH DIAERESIS
-<Multi_key> <colon> <o> <o> <parenright>  :  "°͜°"    # Funny smiley-face.
+<Multi_key> <colon> <asciitilde>	    : "⍨"   U2368		# APL FUNCTIONAL SYMBOL TILDE DIAERESIS
+<Multi_key> <colon> <bar>		        : "😐"   U2E1A		# HYPHEN WITH DIAERESIS
+<Multi_key> <colon> <less>              : "😉"   U1F609     # WINKING FACE
+<Multi_key> <colon> <p>                 : "😛"   U1F61B     # FACE WITH STICK-OUT TONGUE
+
+
 # Those are archaic cyrilic letters... but look so _perfect_ for use
 # in chat. And about the last, the "multiocular O"... Well, I don't
 # know what it can be used for, but given the description, how could I
@@ -680,6 +684,8 @@ include "%L"
 <Multi_key> <at> <at> <slash>	:	"✔"	U2714	# HEAVY CHECK MARK
 <Multi_key> <at> <X>  		:	"✗"	U2717	# BALLOT X
 <Multi_key> <at> <at> <X>	:	"✘"	U2718	# HEAVY BALLOT X
+<Multi_key> <at> <x>  		:	"✗"	U2717	# BALLOT X
+<Multi_key> <at> <at> <x>	:	"✘"	U2718	# HEAVY BALLOT X
 # Will I want <at> <at> for something else?
 # Now there is such a thing as text style and emoji style.  Use the
 # "dingbat prefix" in an unusual way:
